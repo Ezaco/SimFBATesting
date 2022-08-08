@@ -1,5 +1,7 @@
-line 1
-line 2
-line 3
-line 4
-line 5
+<table>
+<tr><td>line 1</td></tr>
+<tr><td>line 2</td></tr>
+<tr><td>line 3</td></tr>
+<tr><td>line 4</td></tr>
+<tr><td>line 5</td></tr>
+</table>
