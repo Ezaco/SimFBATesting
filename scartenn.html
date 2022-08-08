@@ -1,0 +1,34 @@
+<body onload="load();">
+    <head>
+        <style>
+            .warning {
+                text-align: center;
+                padding-top: 200px;
+                color: #cc0000;
+                font-size: 36px;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <script type="text/javascript">
+        let text = [];
+        let lastLine = 0;
+        async function load() {
+          const r = await fetch('scartenn.txt');
+          const allTest = await r.text();
+          text = allTest.split(/\r?\n/);
+        }
+        function getNextLine(ll) {
+          if (ll < text.length) {
+            return text[ll]; 
+          } else {
+            clearInterval(handle);
+          }
+        }
+        let handle = setInterval(() => {
+          const nextLine = getNextLine(lastLine++);
+          if (nextLine) document.write(nextLine);
+        }, 5000);
+    </script>
+<div class="warning">Game will begin in approximately 30 seconds. Do not fear the blank page...</div>
+</body>
