@@ -1,3 +1,21 @@
+<script>fetch("header.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("header").innerHTML = data;
+  });
+
+fetch("footer.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("footer").innerHTML = data;
+});</script>
+<body>
+    <header></header>
+</body>
 <body onload="load();">
     <head>
         <style>
@@ -31,4 +49,7 @@
         }, 5000);
     </script>
 <div class="warning">Game will begin in approximately 30 seconds. Do not fear the blank page...</div>
+</body>
+<body>
+    <footer></footer>
 </body>
