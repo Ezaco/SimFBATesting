@@ -1,1 +1,27 @@
-Hello world
+<body onload="load();">
+    <head> 
+        <style type="text/css">
+        </style>
+    </head>
+    <script type="text/javascript">
+        let text = [];
+        let lastLine = 0;
+        async function load() {
+          const r = await fetch('file.txt');
+          const allTest = await r.text();
+          text = allTest.split(/\r?\n/);
+        }
+        function getNextLine(ll) {
+          if (ll < text.length) {
+            return text[ll]; 
+          } else {
+            clearInterval(handle);
+          }
+        }
+        let handle = setInterval(() => {
+          const nextLine = getNextLine(lastLine++);
+          if (nextLine) document.writeln(nextLine);
+        }, 5000);
+    </script>
+<div id="myDiv"></div>
+</body>
