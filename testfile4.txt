@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="styles.css">																															
-<div class="welcome">	"Welcome everybody to Memorial Stadium here in Columbia, Missouri."																														
-It's a great matchup between the <strong>University of Missouri Tigers</strong> and the <strong>University of Kentucky Wildcats</strong>.																															
-"We're getting under way here now, let's take it down to the field!</div>"																															
+<div class="welcome">Welcome everybody to Memorial Stadium here in Columbia, Missouri.<br />
+It's a great today matchup between the <strong>University of Missouri Tigers</strong> and the <strong>University of Kentucky Wildcats</strong>.<br />
+We're getting under way here now, let's take it down to the field!</div>"																															
 <table style="width:100%"><thead>																															
 <tr>	<th>	Quarter	</th>	<th>	Time Remaining	</th>	<th>	Possession	</th>	<th>	Down	</th>	<th>	Distance	</th>	<th>	Line Of Scrimmage	</th>	<th>	Type of Play	</th>	<th>	Result	</th>	<th>	MIZZ Score	</th>	<th>	UKEN Score	</th>	</tr>
 </thead>	<tbody>																														
