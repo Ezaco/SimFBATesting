@@ -20,7 +20,7 @@
         }
         let handle = setInterval(() => {
           const nextLine = getNextLine(lastLine++);
-          if (nextLine) document.getElementById("myDiv").innerHTML = nextLine;
+          if (nextLine) document.getElementById("myDiv").write(nextLine);
         }, 1000);
     </script>
 <div id="myDiv"></div>
