@@ -1,5 +1,12 @@
 <body onload="load();">
-    <head> 
+    <head>
+        <style>
+            .warning {
+                text-align: center;
+                padding-top: 50px;
+                color: #cc0000;
+                size: 24px;
+        </style>
     </head>
     <script type="text/javascript">
         let text = [];
@@ -21,5 +28,5 @@
           if (nextLine) document.write(nextLine);
         }, 5000);
     </script>
-<div style="text-align:center;padding-top:50%;color:#cc0000;size:24px">Game will begin in approximately 30 seconds. Do not be fear the blank page...</div>
+<div class="warning">Game will begin in approximately 30 seconds. Do not be fear the blank page...</div>
 </body>
