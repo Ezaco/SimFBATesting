@@ -1,4 +1,7 @@
-<style type="text/css"> table, th, td { border: 1px solid; text-align: center; } </style>
+<style type="text/css">
+table, th, td { border: 1px solid; text-align: center; border-collapse: collapse;}
+body { background-color: #E7E9EB; }
+</style>
 <table style="width:100%"><thead><tr><th title="Field #1">Quarter</th><th title="Field #2">Time Remaining</th><th title="Field #3">Possession</th><th title="Field #4">Down</th><th title="Field #5">Distance</th><th title="Field #6">Line Of Scrimmage</th><th title="Field #7">Type of Play</th><th title="Field #8">Result</th><th title="Field #9">MIZZ Score</th><th title="Field #10">UKEN Score</th></tr></thead><tbody><tr><td align="right">1</td><td>15:00</td><td>MIZZ</td><td>N/A</td><td>N/A</td><td>35 MIZZ</td><td>Kickoff</td><td>K Kendell Elliott kicks for 65 yards. Fielded at the goalline by RB Kelvin DupreeRB Kelvin Dupree returns the ball 25 yards. Ran out of bounds.</td><td>0</td><td>0</td>
 </tr><tr><td align="right">1</td><td>14:48</td><td>UKEN</td><td>1</td><td>10</td><td>25 UKEN</td><td>Run</td><td>RB Kelvin Dupree carries for -2 yards. Tackled by DT Caleb Suarez.</td><td>0</td><td>0</td>
 </tr><tr><td align="right">1</td><td>14:11</td><td>UKEN</td><td>2</td><td>12</td><td>23 UKEN</td><td>Pass</td><td>QB Michael Oliveros incomplete. Intended for WR Logan Njoku.</td><td>0</td><td>0</td>
