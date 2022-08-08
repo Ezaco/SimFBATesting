@@ -7,7 +7,7 @@
         let text = [];
         let lastLine = 0;
         async function load() {
-          const r = await fetch('file.txt');
+          const r = await fetch('file.csv');
           const allTest = await r.text();
           text = allTest.split(/\r?\n/);
         }
