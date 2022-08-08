@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="styles.css">																																	
-<div class="welcome"> Welcome everybody to Williams-Brice Stadium here in Columbia, South Carolina.																																								
+<div class="welcome"> Welcome everybody to Williams-Brice Stadium here in Columbia, South Carolina.<br />
 It's great matchup today between the <strong> University of South Carolina Gamecocks </strong> and the <strong> University of Tennessee Volunteers </strong>.<br />																																	
 We're getting under way here now, let's take it down to the field!</div>																																	
 <table style="width:100%"><thead>																																	
